@@ -1,0 +1,59 @@
+
+Технологии индустриального программирования
+Институт Перспективных Технологий Индустриального программирования
+Преподаватель: Астафьев Рустам Уралович
+Практическое задание 1
+
+Задание 1
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a,b;
+    cin >> a >> b;
+    a = a - b;
+    b = a + b;
+    a = b - a;
+
+    cout << a <<endl <<b;
+
+    return 0;
+}
+
+Задание 2
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+    int temp = 1;
+    int sumpr = 1;
+    cin >> n;
+
+    for(int i = 1;i <= n;i++) {
+        temp *= i;
+        sumpr *= temp;
+    }
+
+    cout << sumpr << endl;
+    
+    return 0;
+}
+
+Задание 3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a;
+    int b = 2;
+
+    cin >> a;
+    b = b - a;
+    cout << b;
+
+    return 0;
+}
